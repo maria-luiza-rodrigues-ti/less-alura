@@ -1,3 +1,11 @@
+.image-replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.sombra-padrao {
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
 /** Geral **/
 body {
   font-family: "Roboto Slab", serif;
@@ -77,12 +85,19 @@ header .container {
   margin-top: 1em;
   background: #c24e4b;
   border: 0;
-  padding: 0.6em;
+  padding: .6em;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
+  -webkit-border-radius: 2em;
+  -o-border-radius: 2em;
+  border-radius: 2em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
+}
+.destaque button:hover {
+  background: #c8615e;
+}
+.destaque button:active {
+  background: #b6413e;
 }
 /** Sobre **/
 .sobre {
@@ -151,7 +166,7 @@ header .container {
   background: #c24e4b;
   text-align: center;
   height: 2em;
-  padding-top: 0.6em;
+  padding-top: .6em;
   margin-top: 0;
 }
 .plano div {
@@ -166,7 +181,7 @@ header .container {
   font-size: 1em;
   list-style: none;
   border-bottom: 1px solid #acacac;
-  padding: 0.5em;
+  padding: .5em;
   width: 14.8em;
 }
 .itens-plano li:last-child {
@@ -183,6 +198,7 @@ header .container {
   height: 38px;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
   border-radius: 0.3em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
@@ -208,7 +224,7 @@ header .container {
   content: "";
   background: url(../imagens/fundo.png);
   background-size: 25px 25px;
-  opacity: 0.15;
+  opacity: .15;
   top: 0;
   left: 0;
   bottom: 0;
@@ -230,7 +246,7 @@ header .container {
 }
 .posts-antigos a {
   text-decoration: none;
-  color: black;
+  color: #000;
   background: url(../imagens/icone-relogio.png) left center no-repeat;
   padding-left: 2.5em;
   height: 1.7em;
@@ -251,9 +267,10 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: 0.8em;
+  margin-bottom: .8em;
   padding: 4px 8px;
   -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
   border-radius: 0.3em;
   border: 2px solid #ccc;
 }
@@ -266,6 +283,7 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
   border-radius: 0.3em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
@@ -277,7 +295,7 @@ footer {
 footer::after {
   content: "";
   background: url(../imagens/fundo-rodape.png);
-  opacity: 0.02;
+  opacity: .02;
   top: 0;
   left: 0;
   bottom: 0;
