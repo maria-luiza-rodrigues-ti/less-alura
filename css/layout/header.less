@@ -5,9 +5,17 @@ header {
     height: 90px;
     width: 100%;
     position: absolute;
+
+    @media @mobile{
+      height: auto;
+    }
   
     .container {
       position: relative;
+
+      @media @mobile{
+        position: static;
+      }
     }
   }
   
@@ -17,6 +25,12 @@ header {
     top: -.5em;
     font-size: 1.2em;
     font-weight: lighter;
+
+    @media @mobile{
+      position: static;
+      display: block;
+      text-align: center;
+    }
   
     ul {
       padding-left: 0;
@@ -25,6 +39,10 @@ header {
     li {
       display: inline-block;
       width: 5em;
+
+      @media @mobile{
+        margin: 0.4em;
+      }
     }
   
     a {
