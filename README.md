@@ -1,7 +1,7 @@
 
 
 <h1 align="center"> 
-	🚧  Apeperia 🚀 Em Andamento 🚀 🚧
+	🚧 Site Apeperia 🚀 Em Andamento 🚀 🚧
 </h1>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 ## 💻 Sobre o projeto
 
-O intuito desse projeto foi criar um website da loja fictícia Alura Store, utilizando HTML, CSS e LESS, reforçando os conhecimentos da linguagem LESS. Esse projeto faz parte do curso de LESS: CSS simples e produtivo [Alura](https://www.alura.com.br/).
+O intuito desse projeto foi criar um website da loja fictícia Apeperia, utilizando HTML, CSS e LESS, reforçando os conhecimentos da linguagem LESS. Esse projeto faz parte do curso de LESS: CSS simples e produtivo [Alura](https://www.alura.com.br/).
 
 ---
 
