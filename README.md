@@ -1,7 +1,7 @@
 
 
 <h1 align="center"> 
-	🚧 Site Apeperia 🚀 Em Andamento 🚀 🚧
+	🚧 Site Apeperia 🚀 Concluído 🚀 🚧
 </h1>
 
 <p align="center">
